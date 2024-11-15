@@ -1,0 +1,5 @@
+(define (problem easy)
+        (:domain blocksworld)
+        (:objects A)
+        (:init (clear A) (ontable A) (handempty))
+        (:goal (and (holding A))))
